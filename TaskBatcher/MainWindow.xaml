@@ -5,20 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskBatcher"
         mc:Ignorable="d"
-        Title="TaskBatcher" Height="264.866" Width="290.417">
-    <Grid>
+        Title="TaskBatcher" Height="279.533" Width="290.417">
+    <Grid x:Name="layoutGrid">
         <TextBox x:Name="taskToAdd" HorizontalAlignment="Left" Height="23" Margin="20,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="label" Content="Task to add:" HorizontalAlignment="Left" Margin="20,16,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listBoxWeeks" HorizontalAlignment="Left" Height="100" Margin="20,102,0,0" VerticalAlignment="Top" Width="120" SelectionMode="Multiple"/>
-        <Label x:Name="label_Copy" Content="Weeks to add to:" HorizontalAlignment="Left" Margin="20,77,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Task to add:" HorizontalAlignment="Left" Margin="17,13,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <ListBox x:Name="listBoxWeeks" HorizontalAlignment="Left" Height="100" Margin="20,124,0,0" VerticalAlignment="Top" Width="120" SelectionMode="Multiple"/>
+        <Label x:Name="label_Copy" Content="Weeks to add to:" HorizontalAlignment="Left" Margin="17,99,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
         <Button x:Name="button" Content="Add Task" HorizontalAlignment="Left" Margin="177,204,0,0" VerticalAlignment="Top" Width="81" Click="button_Click"/>
-        <CheckBox x:Name="mondayCheckBox" Content="Monday" HorizontalAlignment="Left" Margin="177,49,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="tuesdayCheckBox" Content="Tuesday" HorizontalAlignment="Left" Margin="177,69,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="wednesdayCheckBox" Content="Wednesday" HorizontalAlignment="Left" Margin="177,88,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="thursdayCheckBox" Content="Thursday" HorizontalAlignment="Left" Margin="177,108,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="fridayCheckBox" Content="Friday" HorizontalAlignment="Left" Margin="177,128,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="saturdayCheckBox" Content="Saturday" HorizontalAlignment="Left" Margin="177,148,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="sundayCheckBox" Content="Sunday" HorizontalAlignment="Left" Margin="177,168,0,0" VerticalAlignment="Top"/>
-
+        <CheckBox x:Name="monday" Content="Monday" HorizontalAlignment="Left" Margin="177,44,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="tuesday" Content="Tuesday" HorizontalAlignment="Left" Margin="177,63,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="wednesday" Content="Wednesday" HorizontalAlignment="Left" Margin="177,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="thursday" Content="Thursday" HorizontalAlignment="Left" Margin="177,104,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="friday" Content="Friday" HorizontalAlignment="Left" Margin="177,124,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="saturday" Content="Saturday" HorizontalAlignment="Left" Margin="177,144,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="sunday" Content="Sunday" HorizontalAlignment="Left" Margin="177,164,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
